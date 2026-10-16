@@ -1,0 +1,65 @@
+Design a software aplication which is able to read a fasta file of one genome from either a virus or a bacteria. Measure the frequencies of the codons(triplets) from the sequence of the genome. In order to measure the frequency use a sliding window of 3 positions ot slide it over the genome and counting the frequency of each codon seen. The aplication must show the top 10 highest frequency codons. Also, the aplication must show for each top 10 codons, the associated aminocid (so translate from dna to rna)
+
+Ask the AI then what are the foods that the top 10 aminoacids need to survive
+
+AI answer:
+
+prompt: what are the foods that the top 10 aminoacids need to survive? my 10 aminoacids for my file are these:
+Total genome length: 1,574,288 base pairs
+
+==================================================
+Rank  Codon   RNA     Amino Acid    Frequency 
+==================================================
+1     AAA     AAA     K             29,286    
+2     ATA     AUA     I             22,315    
+3     TAA     UAA     *             21,303    
+4     AAT     AAU     N             21,114    
+5     ATT     AUU     I             18,013    
+6     TAT     UAU     Y             17,438    
+7     TTA     UUA     L             16,725    
+8     ATG     AUG     M             15,992    
+9     TTT     UUU     F             15,944    
+10    TGA     UGA     *             12,549    
+==================================================
+
+To understand this question, it helps to make a quick scientific distinction: amino acids are chemical molecules, not living organisms, so they don't eat food to survive. Instead, they are the building blocks that make up proteins.
+
+However, depending on whether you are looking at this from the perspective of bacteria or human nutrition, here is how these specific amino acids (Lysine, Isoleucine, Asparagine, Tyrosine, Leucine, Methionine, and Phenylalanine) are sourced:
+
+1. How Bacteria Handle These Amino Acids
+Since your file is a bacterial genome (.fna), bacteria don't "eat" food like humans do. Instead:
+
+Biosynthesis: Most bacteria have the metabolic machinery to synthesize all 20 standard amino acids from scratch using simple environmental nutrients (like glucose, carbon, nitrogen, and inorganic salts found in growth media like LB broth).
+
+Energy Cost: The high frequency of codons like AAA (Lysine) and ATA/ATT (Isoleucine) shows which amino acids the bacterium relies on most heavily to build its cellular proteins.
+
+2. Dietary Sources (If looking at human nutrition)
+If you are curious about which everyday foods are rich in the specific amino acids represented by your top codons, here is where you find them:
+
+Lysine (AAA): Essential for growth and immune function.
+
+Found in: Red meat, poultry, fish, dairy, eggs, beans, and lentils.
+
+Isoleucine (ATA, ATT): A branched-chain amino acid important for muscle metabolism and energy.
+
+Found in: Meat, fish, eggs, cheese, nuts, seeds, and soy products.
+
+Asparagine (AAT): Important for nervous system development.
+
+Found in: Dairy, whey, beef, poultry, eggs, asparagus, potatoes, and whole grains.
+
+Tyrosine (TAT): Used to produce neurotransmitters like dopamine and adrenaline.
+
+Found in: Cheese (especially parmesan), chicken, turkey, fish, peanuts, almonds, and avocados.
+
+Leucine (TTA): Crucial for protein synthesis and muscle repair.
+
+Found in: Soybeans, beef, chicken, pork, fish, milk, and peanuts.
+
+Methionine (ATG): Often the very start codon for proteins, important for metabolism.
+
+Found in: Sesame seeds, Brazil nuts, fish, meats, and eggs.
+
+Phenylalanine (TTT): An essential aromatic amino acid.
+
+Found in: Meat, fish, eggs, cheese, milk, and soy products.
