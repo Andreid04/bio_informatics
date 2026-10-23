@@ -1,0 +1,5 @@
+make an application that samples the genome such that 20000 samples are made uniformly across the file. each genome must have a length of 100 to 150 genomes. in the second part of the task
+
+2nd part
+design an application that is able to use the 20000 samples in order to reconstruct the original genome.
+the case here is that you consider that you dont have access to the original genome 
