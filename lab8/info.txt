@@ -1,0 +1,4 @@
+Implement a software app that aligns two DNA sentences by using Needleman-Wunsch algorithm.
+
+s1 = "ACCGTGAAGCCAATAC"
+s2 = "AGCGTGCAGCCAATAC
